@@ -1,7 +1,7 @@
 # Trading Counterparty Default Risk (K-TCD) for a Reverse Repo transaction
 ### **Introduction**
 
-This Python file aims to calculate the Trading Counterparty Default Risk (K-TCD) of a Reverse Repo Transaction as outlined in the "Investment Firm Regulation"
+This Python file aims to calculate the Trading Counterparty Default Risk (K-TCD) of a Reverse Repo Transaction as outlined in the "Investment Firm Regulation 2019/2033"
 ### **Requirements**
 
 Additional Python Modules required:
@@ -32,7 +32,8 @@ PFE= Potential Future Exposure which for Reverse Repos is 0 as this is only defi
 
 C= Collateral - this depends on whether the security under the repo is a government or non-government bond ( I have assumed that the maturity is <=1 year)
 
-### Assumptions:
+#### Assumptions:
 
 - The maturity of the security involved in the transction is <=1 year
 - To work out the counterparty type I've assumed that if the customer type ends in "govt" it will have a risk factor of 1.6% - otherwise it will have a risk factor of 8%
+
