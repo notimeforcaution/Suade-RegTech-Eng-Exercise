@@ -9,7 +9,7 @@ Additional Python Modules required:
 
 ### **How to use the Python file**
 
-To run the file, the JSON file containing the two legs of the Reverse Repo Transaction should be in the same directory as the Python file and be under the name "data.json". There is an in-built check to see if the uploaded file is data from a Reverse Repo transaction.
+To run the Python file (KTCD Calculator.py), the JSON file containing the two legs of the Reverse Repo Transaction should be in the same directory as the Python file and be under the name "data.json". There is an in-built check to see if the uploaded file is data from a Reverse Repo transaction.
 
 The output of the file will be a figure that represents the K-TCD of the uploaded Reverse Repo Transaction.
 
